@@ -23,8 +23,8 @@ start_message = """
 <b>@VJ_Botz</b>"""
 
 about_message = """
-<b>• Name : <a href=https://t.me/VJ_Botz>VJ AutoCaption</a></b>
-<b>• Developer : <a href=https://t.me/VJ_Botz>[VJ UPDATES]</a></b>
+<b>• Name : <a href=https://t.me/Stylish_Star2>VJ AutoCaption</a></b>
+<b>• Developer : <a href=https://t.me/Stylish_Star2>[VJ UPDATES]</a></b>
 <b>• Language : Python3</b>
 <b>• Library : Pyrogram v{version}</b>
 <b>• Updates : <a href=https://t.me/VJ_Botz>Click Here</a></b>
@@ -77,7 +77,7 @@ def get_file_details(update: pyrogram.types.Message):
 def start_buttons(bot, update):
   bot = bot.get_me()
   buttons = [[
-   pyrogram.types.InlineKeyboardButton("Updates", url="t.me/VJ_Botz"),
+   pyrogram.types.InlineKeyboardButton("Updates", url="https://t.me/Filmone_Theaters"),
    pyrogram.types.InlineKeyboardButton("About 🤠", callback_data="about")
    ],[
    pyrogram.types.InlineKeyboardButton("➕️ Add To Your Channel ➕️", url=f"http://t.me/{bot.username}?startchannel=true")
@@ -91,7 +91,7 @@ def about_buttons(bot, update):
   return pyrogram.types.InlineKeyboardMarkup(buttons)
 
 print("Telegram AutoCaption V1 Bot Start")
-print("Bot Created By https://t.me/VJ_Botz")
+print("Bot Created By https://t.me/Filmone_Theaters")
 
 AutoCaptionBotV1.run()
 
